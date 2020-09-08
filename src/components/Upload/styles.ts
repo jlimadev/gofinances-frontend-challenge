@@ -30,6 +30,11 @@ export const DropContainer = styled.div.attrs({
 
   ${(props: UploadProps): false | FlattenSimpleInterpolation =>
     props.isDragReject && dragReject}
+
+  &:hover {
+    transition: 0.5s;
+    transform: scale(1.1, 1.1);
+  }
 `;
 
 const messageColors = {

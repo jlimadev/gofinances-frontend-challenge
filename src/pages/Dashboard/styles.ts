@@ -68,17 +68,10 @@ export const TableContainer = styled.section`
       line-height: 24px;
     }
 
-    tr {
+    tr:hover td {
+      background: #fafafc;
       transition: 0.5s;
-
-      &:hover {
-        transition: 0.5s;
-      }
-
-      &:hover td {
-        background: #fafafc;
-        transform: scale(1.1, 1.1);
-      }
+      transform: scale(1.1, 1.1);
     }
 
     td {
